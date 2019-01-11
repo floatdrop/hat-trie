@@ -2,5 +2,6 @@ cc_library(
     name = "hat-trie",
     hdrs = glob(["include/tsl/**/*.h"]),
     includes = ["include"],
+    defines = ["TSL_HT_HAS_STRING_VIEW"],
     visibility = ["//visibility:public"],
 )
