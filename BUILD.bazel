@@ -1,0 +1,6 @@
+cc_library(
+    name = "hat-trie",
+    hdrs = glob(["include/tsl/**/*.h"]),
+    includes = ["include"],
+    visibility = ["//visibility:public"],
+)
